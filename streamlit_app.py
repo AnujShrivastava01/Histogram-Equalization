@@ -28,10 +28,14 @@ st.markdown("""
         font-weight: bold;
     }
     .stRadio > div {
-        background-color: white;
+        background-color: white !important;
         padding: 20px;
         border-radius: 10px;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    .stRadio label {
+        color: #202124 !important;
+        font-weight: 500;
     }
     h1, h2, h3 {
         color: #202124;
